@@ -7,7 +7,30 @@
 
 </head>
 <body>
+    <header>
+        <h1>TO DO LIST</h1>
+        <form id="newTaskForm">
+            <input type="text" name="newTaskInput" id="newTaskInput" placeholder="Add New Task">
+            <input type="submit" value="Add Task" id="SubmitNewTask">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>TASKS</h2>
+            <div id="tasks">
+<div class="task">
+    <div class="content">
+        <input type="text" value="A new task">
+    </div>
+    <div class="editDelete">
+        <i class="fa-solid fa-pen-to-square"></i>
+        <i class="fa-solid fa-trash"></i>
+    </div>
+</div>
+            </div>
+            </section>
+    </main>
 
-    
+ <script src="main.js"></script>   
 </body>
 </html>
