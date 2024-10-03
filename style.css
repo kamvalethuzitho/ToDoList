@@ -1,0 +1,86 @@
+:root{
+    --light: #dad7cd;
+    --lighter: #d8e2dc;
+    --darkest: #111827;
+   --grey:#8693aa;
+   --green: #137547;
+   --blue:#023e8a;
+   --bright:#FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+body{ 
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    color: #FFF;
+    background-color: var(--bright);
+}
+
+header{
+    padding: 2rem 1rem;
+    max-height: 500;
+    width: 40%;
+    margin: 0 auto; 
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+#newTaskForm{
+    display: flex;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent !important;
+
+}
+#newTaskInput{
+    background-color:#dad7cd!important;
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-right: 1rem;
+    color: black!important;
+    font-size: 1.25rem !important;
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.15)!important;
+}
+#newTaskInput::placeholder{
+    color: #111827;
+}
+
+#SubmitNewTask{
+    color: #023e8a;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#SubmitNewTask:hover{
+opacity: 0.0;
+}
+#SubmitNewTask:active{
+    opacity: 0.0;
+}
+main {
+    flex: 1 1 0%;
+
+}
