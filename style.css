@@ -45,36 +45,28 @@ input{
     background: transparent !important;
 
 }
-#newTaskInput{
-    background-color:#dad7cd!important;
+#newTaskInput {
+    background-color: #dad7cd !important;
     flex: 1 1 0%;
     padding: 1rem;
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    margin-right: 1rem;
-    color: black!important;
+    color: black !important;
     font-size: 1.25rem !important;
-    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.15)!important;
-    margin-left: -149px;
-    width: 514px;
+    box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.15) !important;
+    margin-right: 1rem;
+    width: auto; /* Adjusted for better responsiveness */
 }
+
 #newTaskInput::placeholder{
     color: #111827;
 }
 
-#SubmitNewTask{
+#SubmitNewTask {
     color: #023e8a;
     font-size: 1.25rem;
     font-weight: 700;
     cursor: pointer;
     transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
 }
 #SubmitNewTask:hover{
 opacity: 0.0;
@@ -98,22 +90,17 @@ main {
     color: grey;
     margin-bottom: 3rem;
 }
-#tasks .task{
+#tasks .task {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--lighter);
     padding: 1rem;
-    /* margin-left: -55px; */
-
-    border-radius: 1rem ;
-    -webkit-border-radius: 1rem ;
-    -moz-border-radius: 1rem ;
-    -ms-border-radius: 1rem ;
-    -o-border-radius: 1rem ;
+    border-radius: 1rem;
     box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.15)!important;
-
+    margin-bottom: 1rem; /* Add this to create spacing between tasks */
 }
+
 
 .task-list ul{
     list-style-type: none;
