@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     const form = document.querySelector("#newTaskForm");
-    const input = document.querySelector("#newTaskInput"); // Corrected ID
+    const input = document.querySelector("#newTaskInput"); 
     const listElement = document.querySelector("#tasks");
 
     form.addEventListener("submit", (e) => {
@@ -56,7 +56,7 @@ window.addEventListener("load", () => {
             // Clear the input after submitting
             input.value = "";
 
-            // Add functionality to edit button (optional)
+            // Add functionality to edit button 
             taskEdit.addEventListener("click", () => {
                 if (taskInput.hasAttribute("readonly")) {
                     taskInput.removeAttribute("readonly");
